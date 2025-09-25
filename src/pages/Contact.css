@@ -1,0 +1,73 @@
+.contact-section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.contact-left {
+  flex: 1;
+  position: relative;
+}
+
+.contact-bg-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contact-right {
+  flex: 1;
+  background-color: #0f172a; /* Slate-900 */
+  color: white;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-heading {
+  font-size: 2.5rem;
+  color: #38bdf8;
+  margin-bottom: 2rem;
+}
+
+.highlight-text {
+  color: #7dd3fc;
+}
+
+.contact-card {
+  background-color: rgba(30, 41, 59, 0.9);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+  transition: 0.3s;
+}
+
+.contact-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.5);
+}
+
+.contact-card p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: #cbd5e1;
+}
+
+.contact-card a {
+  color: #7dd3fc;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
